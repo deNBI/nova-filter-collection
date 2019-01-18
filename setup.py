@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="de.NBI Cloud admins",
     author_email="cloud@denbi.de",
-    description="Collection of additional nova filters developed for the de.NBI cloud"
+    description="Collection of additional nova filters developed for the de.NBI cloud",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/deNBI/nova-filter-collection",
@@ -20,5 +20,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3.5",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        "nova >= 17.0.0"
     ],
 )
